@@ -23,8 +23,8 @@ try {
   $phpmailer->Host = 'sandbox.smtp.mailtrap.io';
   $phpmailer->SMTPAuth = true;
   $phpmailer->Port = 2525;
-  $phpmailer->Username = 'bc3be28d14e01b';
-  $phpmailer->Password = '1c707497ad93e0';
+  $phpmailer->Username = 'MailtrapのID';
+  $phpmailer->Password = 'Mailtrapのパスワード';
   // Mailtrap ここまで
 
   $phpmailer->setFrom($email, $name); // From
